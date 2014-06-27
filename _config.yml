@@ -1,0 +1,33 @@
+# This is the default format. 
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:title.html
+relative_permalinks: false 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "islamic-kiosk.sublime-project", "islamic-kiosk.sublime-workspace", "sftp-config.json"]
+highlighter: null
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title: Poetry and Prayer
+tagline: Islamic Manuscripts from the Walters Art Museum
+author:
+  name: The Walters Art Museum
+  email: info@thewalters.org
+  twitter: walters_museum
+
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt 
+# Most places will/should use BASE_PATH to make the urls
+#
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.io, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
+#
+# production_url: http://username.github.io
+#
+# Asset path points to the directory full of css, images, javascript, images, etc.
+# The local assets directory name begins with underscore so that Jekyll will ignore it
+# For now, the assets are remotely hosted
+# ASSET_PATH: /_assets
+ASSET_PATH: http://poetryprayer.thewalters.org/v2/_assets
