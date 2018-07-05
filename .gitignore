@@ -1,6 +1,6 @@
 ### Ignore assets ###
 # *.pdf
-_assets/
+assets/
 
 ### Jekyll ###
 _site/

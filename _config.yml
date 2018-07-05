@@ -30,4 +30,5 @@ author:
 # The local assets directory name begins with underscore so that Jekyll will ignore it
 # For now, the assets are remotely hosted
 # ASSET_PATH: /_assets
-ASSET_PATH: http://poetryprayer.thewalters.org/v2/_assets
+# ASSET_PATH: http://poetryprayer.thewalters.org/v2/_assets
+ASSET_PATH: /assets
